@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Text to Speech Convertor"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputid"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20pt"
+        android:background="@drawable/back_ground"
+        android:hint="Please enter text here"
+        android:textColorHint = "@color/white"
+        android:lines="5"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/speakid"
+        android:layout_width="167dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="45pt"
+        android:layout_marginTop="20pt"
+        android:layout_marginRight="100pt"
+        android:layout_marginBottom="10pt"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:text="speak"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/clearid"
+        android:layout_width="167dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="45pt"
+        android:layout_marginRight="100pt"
+        android:layout_marginBottom="80pt"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:text="clear"
+
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
